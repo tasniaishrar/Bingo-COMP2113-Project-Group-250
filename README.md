@@ -1,7 +1,7 @@
 # COMP2113 Course Project (Group 250)
 
 ## Team members
-1. RAHMAN Tasnia Ishrar • 3035...
+1. RAHMAN Tasnia Ishrar • 3035718187
 2. ZAKARIA Atiab Bin • 3035718230
 
 ## Game description and rules
