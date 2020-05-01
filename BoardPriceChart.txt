@@ -45,3 +45,7 @@ First column is size of board and second column is price of board(in game curren
 48 225
 49 230
 50 235
+51 240
+52 245
+53 250
+>53 500
