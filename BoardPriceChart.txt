@@ -1,4 +1,4 @@
-First column is size of board and second column is price of board(in game currency).
+The first column denotes the size of board and the second column denotes the price (in-game currency) of each size of board.
 5 10
 6 15
 7 20
