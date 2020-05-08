@@ -42,11 +42,11 @@ If the card is full of zeros but the user still does not claim bingo, an automat
 8. winCombo: To check for row, column and diagonal bingos.
 9. repCheck: To prevent repetition of values in the card.
 10. printCard: To print the card (both initial and updated).
-11. nextMove: Generates two random numbers. Calculates arithmetic operations with them (+,-,*,/) and updates the card with zeros if those values are present.
+11. nextMove: Generates two random numbers. Calculates arithmetic operations with them (+, -, *, /) and updates the card with zeros if those values are present.
 12. generateCard: Fills the specified size of card with random, unique numbers.
 
 
 ## Instructions for running the program
 1. Use the following command: g++ -pedantic-errors -std=c++11 *.cpp -o main
-2. Run the program in full screen to view the cards properly (expecially for cards with a large size)
+2. Run the program in full screen to view the cards properly (especially for cards with a large size)
 
