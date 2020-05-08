@@ -1,0 +1,2 @@
+language = "cpp"
+run = "clang++-7 -pedantic-errors -std=c++11 *.cpp -o main"
