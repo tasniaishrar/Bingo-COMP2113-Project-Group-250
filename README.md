@@ -4,7 +4,7 @@
 1. RAHMAN Tasnia Ishrar • 3035718187 -BEng Year 1
 2. ZAKARIA Atiab Bin • 3035718230 -BEng Year 1 
 
-## Game description and rules
+## Game description, features and rules
 User inputs the amount of money they have and the size of the card they want to purchase. The size input has to be in the range [3,23] and it has to be an odd number. We have chosen 23 as a reasonable upper limit because of screen size limitations. We have specified it to be odd because there must be a free size denoted by a '0' on the card. Each size range of the card has a specific price (in-game currency). Error will be generated until user can afford the specified size of card and the size input is within the aforementioned range. 
 
 The randomly generated card of the specified size will be displayed on the screen. Two options are available to user: 1. “Next Numbers” and 2. “Claim Bingo”. “Next Numbers” will generate and display two random numbers. The two randomly generated numbers, their sum, difference, product and quotient (if any one is divisible by another) is replaced with a '0' on the card. 
@@ -49,4 +49,6 @@ If the card is full of zeros but the user still does not claim bingo, an automat
 ## Instructions for running the program
 1. Use the following command: g++ -pedantic-errors -std=c++11 *.cpp -o main
 2. Run the program in full screen to view the cards properly (especially for cards with a large size)
+
+Note: We have not provided sample input/output files since our game is purely based on random generation of numbers
 
