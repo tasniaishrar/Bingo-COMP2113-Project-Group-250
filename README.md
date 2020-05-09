@@ -47,7 +47,7 @@ If the card is full of zeros but the user still does not claim bingo, an automat
 
 
 ## Instructions for running the program
-1. Use the following command: g++ -pedantic-errors -std=c++11 *.cpp -o main
+1. Use the following command: g++ -pedantic-errors -std=c++11 *.cpp -o main and then ./main
 2. Run the program in full screen to view the cards properly (especially for cards with a large size)
 
 Note: We have not provided sample input/output files since our game is purely based on random generation of numbers
