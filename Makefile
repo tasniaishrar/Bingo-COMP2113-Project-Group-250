@@ -7,13 +7,13 @@ repCheck.o: repCheck.cpp repCheck.h
 printCard.o: printCard.cpp printCard.h
   g++ -c $^
 
-nextMove.o: nextMove.cpp nextMove.h printCard.cpp printCard.h generateNumber.cpp generateNumber.h
+nextMove.o: nextMove.cpp nextMove.h printCard.h generateNumber.h
   g++ -c $^
 
 isValidSize.o: isValidSize.cpp isValidSize.h
   g++ -c $^
 
-getInput.o: getInput.cpp getInput.h isValidSize.cpp isValidSize.h
+getInput.o: getInput.cpp getInput.h isValidSize.h
   g++ -c $^
 
 getChoice.o: getChoice.cpp getChoice.h
@@ -22,10 +22,10 @@ getChoice.o: getChoice.cpp getChoice.h
 generateNumber.o: generateNumber.cpp generateNumber.h
   g++ -c $^
 
-generateCard.o: generateCard.cpp generateCard.h generateNumber.cpp generateNumber.h printCard.cpp printCard.h repCheck.cpp repCheck.h
+generateCard.o: generateCard.cpp generateCard.h generateNumber.h printCard.h repCheck.h
   g++ -c $^
 
-claimBingo.o: claimBingo.cpp claimBingo.h winCombo.cpp winCombo.h
+claimBingo.o: claimBingo.cpp claimBingo.h winCombo.h
   g++ -c $^
 
 autoCheck.o: autoCheck.cpp autoCheck.h
