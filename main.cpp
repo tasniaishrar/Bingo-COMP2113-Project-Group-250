@@ -19,6 +19,7 @@ int main(){
     cout<<"patience and persistance. The larger the size of your card, the more the prize  "<<endl;
     cout<<"money (and you will need to stay more patient :P). Remember, there are penalties for"<<endl;
     cout<<"false bingo claims. Good luck!"<<endl;
+    cout<<endl;
     getInput(size, price);
 
     int** card = new int* [size]; //2D dynamically allocated array to store the bingo card
@@ -38,6 +39,7 @@ int main(){
             gameEnd=claimBingo(card, size, price);
         }
         gameOver=autoCheck(zeros, size,price);
+
     }
 
     delete [] card; //frees the allocated space

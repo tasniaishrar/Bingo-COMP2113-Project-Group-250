@@ -20,7 +20,7 @@ void nextMove(int** card, int size, int& zeros){
     }
 
     else{
-      cout<<"Difference: OUT OF RANGE"<<endl;
+        cout<<"Difference: OUT OF RANGE"<<endl;
     }
     
 
@@ -35,25 +35,25 @@ void nextMove(int** card, int size, int& zeros){
     }
 
     else{
-      cout<<"Division: OUT OF RANGE"<<endl;
+        cout<<"Division: OUT OF RANGE"<<endl;
     }
     
-    if ((n1+n2)<=(size*size+50)){ //sum of the two random numbers
+    if ((n1+n2)<=((size*size)+50)){ //sum of the two random numbers
         sum=n1+n2;
         cout<<"Sum: "<<sum<<endl;
     }
 
     else{
-      cout<<"Sum: OUT OF RANGE"<<endl;
+        cout<<"Sum: OUT OF RANGE"<<endl;
     }
 
-    if (prod<=size*size+50){ //product of the two random numbers
+    if ((n1*n2)<=(size*size)+50){ //product of the two random numbers
         prod=n1*n2;
         cout<<"Product: "<<prod<<endl;        
     }
 
     else{
-      cout<<"Product: OUT OF RANGE"<<endl;
+        cout<<"Product: OUT OF RANGE"<<endl;
     }
 
     for (int i=0; i<size; i++){ //replaces the aforementioned values in the card with a '0' if present
